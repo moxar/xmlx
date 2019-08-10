@@ -1,6 +1,9 @@
 # xmlx
 
-## introduction
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/moxar/xmlx)
+[![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/moxar/xmlx/master/LICENSE)
+
+## Motivation
 
 This package xmlx extends the features of the encoding/xml package with a 
 generic unmarshallable xml structure.
@@ -14,13 +17,8 @@ their values.
 * The Split method returns an array of nodes having the same property as the parent,
 splitted after a subnode name.
 
-## installation
 
-```
-	$ go get github.com/moxar/xmlx
-```
-
-## usage
+## Usage
 
 ### Node
 
